@@ -104,6 +104,39 @@ h1 {
   color: rgb(70, 189, 119);
   font-size: 17px;
 }
+.buttons {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 30px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.explore {
+  background-color: rgb(139, 11, 71);
+  color: white;
+}
+
+.explore:hover {
+  background-color: rgb(110, 8, 56);
+}
+
+.book {
+  background-color: rgb(70, 189, 119);
+  color: white;
+}
+
+.book:hover {
+  background-color: rgb(50, 150, 90);
+}
 footer {
   text-align: center;
   font-weight: 200;

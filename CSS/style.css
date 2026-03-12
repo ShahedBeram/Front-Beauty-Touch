@@ -48,7 +48,6 @@ header {
   font-weight: 700;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   letter-spacing: 1px;
-  /*border-radius: 2px;*/
   transition: all 0.3s ease;
 }
 .links:hover {
@@ -79,6 +78,31 @@ header {
 
 h1 {
   font-weight: 500;
+}
+.photos {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photo {
+  width: 25%;
+  display: block;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+}
+.address {
+  font-weight: 500;
+  font-size: 17px;
+  color: rgb(222, 24, 27);
+}
+
+.dollar {
+  color: rgb(70, 189, 119);
+  font-size: 17px;
 }
 footer {
   text-align: center;

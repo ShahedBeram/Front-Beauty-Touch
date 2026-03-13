@@ -3,9 +3,11 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Work Sans", sans-serif;
 }
+
 header {
   width: auto;
   background-image: url(../Images/Cover.jpg);
@@ -40,7 +42,7 @@ header {
   gap: 20px;
 }
 .links {
-  padding: 40px 20px;
+  padding: 15px 15px;
   display: block;
   font-size: 18px;
   text-decoration: none;
@@ -110,7 +112,6 @@ h1 {
 }
 
 .btn {
-  display: inline-block;
   text-decoration: none;
   padding: 12px 30px;
   margin: 10px;
@@ -189,13 +190,12 @@ h1 {
   width: 50%;
   margin-top: -10px;
 }
-.caption {
-  margin-left: -23px;
-  font-style: italic;
-  font-weight: 400;
-  color: rgb(73, 22, 121);
-  font-size: 15px;
+.img2 {
+  width: 500px;
+  height: 200px;
+  object-fit: cover;
 }
+
 .paragraph {
   margin-top: -30px;
   width: 50%;
@@ -223,4 +223,271 @@ footer {
   margin-left: 12px;
   font-weight: 400;
   font-style: italic;
+}
+
+/* ================= Mobile Small ================= */
+@media (min-width: 320px) and (max-width: 575px) {
+  header {
+    height: 220px;
+    margin: 10px;
+  }
+
+  .head {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name {
+    font-size: 28px;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+
+  .list {
+    margin: 10px 0;
+    padding: 0;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .links {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .AA {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    width: 90%;
+    height: auto;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+  .AA {
+    margin-top: 50px;
+  }
+  .image {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .break {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .history {
+    flex-direction: column;
+  }
+
+  .his {
+    width: 100%;
+  }
+  .img2 {
+    width: 310px;
+  }
+  .paragraph {
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+}
+
+/* ================= Mobile Large ================= */
+@media (min-width: 575px) and (max-width: 767px) {
+  header {
+    height: 220px;
+    margin: 10px;
+  }
+  .head {
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    font-size: 28px;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  .list {
+    margin: 10px 0;
+    padding: 0;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .links {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .photo {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .AA {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .text {
+    margin-left: 20px;
+  }
+
+  .history {
+    flex-direction: column;
+  }
+
+  .his {
+    width: 100%;
+  }
+
+  .paragraph {
+    width: 100%;
+    margin-left: 40px;
+  }
+}
+
+/* ================= Tablet ================= */
+@media (min-width: 767px) and (max-width: 991px) {
+  .photo {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+
+  .AA {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .text {
+    margin-left: 20px;
+  }
+
+  .history {
+    flex-direction: column;
+  }
+
+  .his {
+    width: 48%;
+  }
+  .paragraph {
+    margin-left: 40px;
+  }
+}
+
+/* ================= Laptop ================= */
+@media (min-width: 991px) and (max-width: 1199px) {
+  .photo {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .image {
+    width: 100%;
+  }
+  .image img {
+    width: 200px;
+  }
+  .text {
+    margin-left: 20px;
+  }
+
+  .history {
+    margin-left: 0px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .paragraph {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 1199px) and (max-width: 1458px) {
+  .photo {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  .image {
+    width: 100%;
+  }
+  .image img {
+    width: 250px;
+  }
+  .text {
+    margin-left: 0px;
+  }
+  .history {
+    margin-left: 0px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .paragraph {
+    margin-left: 0px;
+  }
 }
